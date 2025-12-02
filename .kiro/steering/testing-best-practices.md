@@ -1,6 +1,6 @@
 ---
 title: Testing Best Practices
-inclusion: always
+inclusion: manual
 ---
 
 # Testing Best Practices

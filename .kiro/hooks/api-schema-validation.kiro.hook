@@ -1,5 +1,5 @@
 {
-  "enabled": true,
+  "enabled": false,
   "name": "API Schema Validation",
   "description": "Validate API schemas and generate types when OpenAPI/GraphQL schemas change",
   "version": "1",

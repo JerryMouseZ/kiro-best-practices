@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "name": "Python Check on Save",
+  "description": "Run Python linting and type checking when Python files are saved",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "**/*.py"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "A Python file has been saved. Please:\n1. Run `ruff check` or `flake8` for linting\n2. Run `mypy` for type checking if type hints are present\n3. Check formatting with `black --check` or `ruff format --check`\n4. Report any errors or warnings that need attention\n\nUse project's existing configuration (pyproject.toml, setup.cfg, .flake8) if available. Use minimal output flags."
+  }
+}

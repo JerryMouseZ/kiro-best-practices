@@ -1,5 +1,5 @@
 {
-  "enabled": true,
+  "enabled": false,
   "name": "Security Scan on Dependency Change",
   "description": "Run security audit when package files are modified following security best practices",
   "version": "1",

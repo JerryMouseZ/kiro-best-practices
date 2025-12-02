@@ -1,0 +1,17 @@
+{
+  "enabled": true,
+  "name": "Rust Check on Save",
+  "description": "Run cargo check and clippy when Rust files are saved",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "**/*.rs",
+      "**/Cargo.toml"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "A Rust file has been saved. Please:\n1. Run `cargo check` to verify compilation\n2. Run `cargo clippy -- -W clippy::all` for linting\n3. Run `cargo fmt --check` to verify formatting\n4. Report any errors or warnings that need attention\n\nUse minimal output flags and focus on actionable issues."
+  }
+}

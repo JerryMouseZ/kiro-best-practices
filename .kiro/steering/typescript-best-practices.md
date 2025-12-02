@@ -1,6 +1,6 @@
 ---
 title: TypeScript Best Practices
-inclusion: always
+inclusion: never
 ---
 
 # TypeScript Best Practices

@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "name": "C/C++ Check on Save",
+  "description": "Run clang-tidy and format check when C/C++ files are saved",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "**/*.c",
+      "**/*.cpp",
+      "**/*.cc",
+      "**/*.cxx",
+      "**/*.h",
+      "**/*.hpp",
+      "**/*.hxx"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "A C/C++ file has been saved. Please:\n1. Check if clang-format config exists and verify formatting\n2. Run clang-tidy if compile_commands.json exists\n3. Check for common issues: memory leaks, null pointer dereferences, uninitialized variables\n4. Report any errors or warnings that need attention\n\nUse project's existing configuration files (.clang-format, .clang-tidy) if available."
+  }
+}
