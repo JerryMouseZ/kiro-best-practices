@@ -1,6 +1,6 @@
 ---
 title: Git Best Practices
-inclusion: always
+inclusion: manual
 ---
 
 # Git Best Practices
@@ -31,7 +31,7 @@ inclusion: always
 - Document branching strategy in README
 
 ## Security
-- Never commit secrets, API keys, or passwords
+- manual commit secrets, API keys, or passwords
 - Use environment variables for configuration
 - Review commits for sensitive information
 - Use signed commits when possible

@@ -1,7 +1,7 @@
 <!-- CDK Best Practices adopted from https://github.com/mbonig/kiro-steering-docs/blob/main/cdk/cdk-best-practices.md -->
 ---
 title: CDK Best Practices
-inclusion: never
+inclusion: manual
 ---
 
 # CDK Best Practices
@@ -46,4 +46,4 @@ inclusion: never
 - Mock `Code.fromAsset` and `ContainerImage.fromAsset` calls
 
 ## Lambda Functions
-- Use `NodejsFunction` or `PythonFunction` whenever possible
+- Use `NodejsFunction` or `PythonFunction` whemanual possible

@@ -1,6 +1,6 @@
 ---
 title: AWS CLI Best Practices
-inclusion: never
+inclusion: manual
 ---
 
 # AWS CLI Best Practices

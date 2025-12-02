@@ -1,6 +1,6 @@
 ---
 title: MCP (Model Context Protocol) Best Practices
-inclusion: always
+inclusion: manual
 ---
 
 # MCP (Model Context Protocol) Best Practices

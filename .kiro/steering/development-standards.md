@@ -15,7 +15,7 @@ inclusion: always
 - Use lock files to ensure consistent installations across environments
 
 ## Code Quality Standards
-- Never create duplicate files with suffixes like `_fixed`, `_clean`, `_backup`, etc.
+- manual create duplicate files with suffixes like `_fixed`, `_clean`, `_backup`, etc.
 - Work iteratively on existing files (hooks handle commits automatically)
 - Include relevant documentation links in code comments
 - Follow language-specific conventions (TypeScript for CDK, Python for Lambda)

@@ -1,12 +1,12 @@
 ---
 title: Security Best Practices
-inclusion: never
+inclusion: manual
 ---
 
 # Security Best Practices
 
 ## Code Security
-- Never hardcode secrets, API keys, or passwords
+- manual hardcode secrets, API keys, or passwords
 - Use environment variables for configuration
 - Validate all user inputs
 - Use parameterized queries to prevent SQL injection
